@@ -5,6 +5,11 @@ import { lusitana } from '@/app/ui/fonts';
 import { fetchLatestInvoices, fetchCardData } from '@/app/lib/data';
 import { Suspense } from 'react';
 import CardWrapper from '@/app/ui/dashboard/cards';
+import { Metadata } from 'next';
+ 
+export const metadata: Metadata = {
+  title: 'Dashboard Overview',
+};
 
 import { 
   RevenueChartSkeleton,
